@@ -9,7 +9,7 @@ for line in QuakeData:
     line = line.split(',')
     LAT.append(float(line[1]))
     LONG.append(float(line[2]))
-plt.scatter(LONG, LAT, marker = "x", color = "pink")
+plt.scatter(LONG, LAT, marker = "x", color = "magenta")
 plt.suptitle("Latitude and Longitude of Earthquakes in 2017", y = .8)
 plt.ylabel("Latitude")
 plt.xlabel("Longitude")
