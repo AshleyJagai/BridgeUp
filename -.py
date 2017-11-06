@@ -10,7 +10,7 @@ for line in QuakeData:
     LAT.append(float(line[1]))
     LONG.append(float(line[2]))
 plt.scatter(LONG, LAT, label = "o")
-plt.suptitle("Latitude and Longtiude of Earthquakes in 2017", y = .75)
+plt.suptitle("Latitude and Longitude of Earthquakes in 2017", y = .8)
 plt.ylabel("Latitude")
 plt.xlabel("Longitude")
 image = img.imread("world-map.gif")
